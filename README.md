@@ -28,7 +28,7 @@ A simple command-line app to manage your movie watchlist — built with Python, 
 ## 📁 Project Structure
 
 ```
-movie-watchlist/
+movies_to_watch/
 │
 ├── .env              # DB credentials (never push this to GitHub!)
 ├── .gitignore        # Ignores .env and pycache
@@ -44,7 +44,7 @@ movie-watchlist/
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/yourusername/movie-watchlist.git
+git clone https://github.com/nelli-ganesh-reddy/movies_to_watch.git
 cd movie-watchlist
 ```
 
