@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #0f0f0f;
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 500px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    background: #1e1e1e;
+    border: 1px solid #333;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 15px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    background: #e50914;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #b20710;
+}
+
+.toggle-btns {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.toggle-btns button {
+    background: #1e1e1e;
+}
+
+.toggle-btns button.active {
+    background: #e50914;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logout-btn {
+    width: auto;
+    padding: 8px 16px;
+    background: #333;
+}
+
+.logout-btn:hover {
+    background: #555;
+}
+
+.add-movie {
+    background: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.movie-card {
+    background: #1e1e1e;
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.movie-info h3 {
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+
+.movie-info p {
+    font-size: 13px;
+    color: #aaa;
+}
+
+.movie-actions {
+    display: flex;
+    gap: 8px;
+}
+
+.movie-actions button {
+    width: auto;
+    padding: 6px 12px;
+    font-size: 13px;
+    margin: 0;
+}
+
+.watched-btn {
+    background: #1a7a1a;
+}
+
+.watched-btn:hover {
+    background: #145214;
+}
+
+.delete-btn {
+    background: #7a1a1a;
+}
+
+.delete-btn:hover {
+    background: #521414;
+}
+
+.watched-card {
+    opacity: 0.5;
+}
+
+p {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #aaa;
+}

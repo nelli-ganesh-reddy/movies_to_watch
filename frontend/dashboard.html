@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Watchlist</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <h1>🎬 My Watchlist</h1>
+            <button onclick="logout()" class="logout-btn">Logout</button>
+        </div>
+
+        <!-- Add Movie Form -->
+        <div class="add-movie">
+            <input type="text" id="movieTitle" placeholder="Movie title">
+            <input type="text" id="movieGenre" placeholder="Genre">
+            <button onclick="addMovie()">Add Movie</button>
+            <p id="addMsg"></p>
+        </div>
+
+        <!-- Movie List -->
+        <div id="movieList"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
